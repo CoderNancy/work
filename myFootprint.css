@@ -1,0 +1,115 @@
+/*common style*/
+html,body{
+	max-width: 750px;
+	background:#f3f3f3;
+}
+
+.public-container{
+    position: relative;
+    background: #fff;
+    padding-left: 0.48rem;
+}
+
+.footprint-date{
+    height: 1.28rem;
+    padding: 0 0.48rem;
+    line-height: 1.28rem;
+    font-family: PingFangSC-Regular;
+	font-size: 0.48rem;
+    color: #999;
+}
+
+.footprint-product-img{
+    width: 3.2rem;
+    height: 3.2rem;
+}
+
+.clearfloat{
+    zoom: 1;
+}
+
+.clearfloat:after{
+    display: block;
+    clear: both;
+    content: "";
+    visibility: hidden;
+    height: 0;
+}
+
+
+/*unique stykl*/
+.footprint-product li{
+    padding: 0.48rem 0.48rem 0.48rem 0;
+}
+
+.footprint-product-today{
+    height: 12.72rem;
+}
+
+.footprint-product-previous{
+    height: 8.72rem;
+}
+
+.footprint-product-img{
+    position: relative;
+    float: left;
+}
+
+.footprint-product-title{
+   position: relative;
+}
+
+.footprint-product-title p{
+    width: 10.36rem;
+    margin-left: 3.72rem;
+    font-family: .PingFangSC-Regular;
+    font-size: 0.6rem;
+    color: #333;
+}
+
+/*text flow*/
+.footprint-product-title p{
+    overflow : hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
+
+.product-price{
+    display: inline-block;
+    width: 2.44rem;
+    margin-top: 0.88rem;
+    margin-left: 0.5rem;
+    font-family: .PingFangSC-Regular;
+    font-size: 0.6rem;
+    color: #E94A45;
+}
+
+/*no png image,so code in css,pls replace if get png image*/
+.product-tag{
+    display: inline-block;
+    width: 1.04rem;
+    height: 0.6rem;
+    border: 1px solid #00a0e9;
+    text-align: center;
+    line-height: 0.6rem;
+    font-family: .PingFangSC-Regular;
+    font-size: 0.38rem;
+    color: #00a0e9;
+}
+
+.footprint-more{
+    display: block;
+    height: 3.1rem;
+    padding-top: 1.3rem;
+    line-height: 0.32rem;
+    text-align:center;
+}
+
+.footprint-more a{
+    font-family: PingFangSC-Regular;
+    font-size: 0.52rem;
+    color: #999;
+}
+
